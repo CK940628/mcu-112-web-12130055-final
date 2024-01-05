@@ -9,6 +9,7 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
+
 span {
   font-family: titillium web, sans-serif;
   font-weight: bold;
@@ -17,20 +18,24 @@ span {
   margin-right: 2rem;
   color: #5cb85c;
 }
+
 ul {
   font-family: titillium web, sans-serif;
-
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
   gap: 20px;
 }
+
 li {
+  color: rgba(0, 0, 0, 0.3);
+}
+a {
   color: rgba(0, 0, 0, 0.3);
   text-decoration: none;
   cursor: pointer;
 }
-li:hover {
+li > a:hover {
   color: rgba(0, 0, 0, 0.8);
 }
