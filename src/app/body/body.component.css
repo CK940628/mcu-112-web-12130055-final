@@ -1,28 +1,15 @@
 :host {
+  display: block;
+  margin-top: 1.5rem;
 }
 
-.nav {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
 }
 
-ul {
-}
-
-li.yf {
-  margin-left: 13rem;
-  margin-top: 2rem;
-}
-
-li.gf {
-  margin-left: 2rem;
-  margin-top: 2rem;
-}
-
-li > a {
-  color: rgba(0, 0, 0, 0.3);
-  text-decoration: none;
-  cursor: pointer;
+.container > div {
+  outline: solid 1px red;
 }
