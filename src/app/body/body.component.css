@@ -13,3 +13,15 @@
 .container > div {
   outline: solid 1px red;
 }
+
+div.articles {
+  padding: 15px;
+  padding-right: 15px;
+  flex: 0 0 75%;
+}
+
+div.tags {
+  padding: 15px;
+  padding-right: 15px;
+  flex: 25%;
+}
