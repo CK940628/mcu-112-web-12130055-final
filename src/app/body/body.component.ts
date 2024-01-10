@@ -1,10 +1,11 @@
+import { ArticleListComponent } from './../article-list/article-list.component';
 import { Component } from '@angular/core';
 import { TagListComponent } from '../tag-list/tag-list.component';
 
 @Component({
   selector: 'app-body',
   standalone: true,
-  imports: [TagListComponent],
+  imports: [ArticleListComponent, TagListComponent],
   templateUrl: './body.component.html',
   styleUrl: './body.component.css',
 })
