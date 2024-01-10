@@ -20,7 +20,7 @@ div.articles {
   flex: 0 0 75%;
 }
 
-div.tags {
+.tag-list {
   padding: 15px;
   padding-right: 15px;
   flex: 25%;
