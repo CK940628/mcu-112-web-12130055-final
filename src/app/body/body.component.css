@@ -3,6 +3,21 @@
   margin-top: 1.5rem;
 }
 
+.article-tab {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1140px;
+}
+
+.button button {
+  background: #fff;
+  border-bottom: 2px solid #5cb85c;
+  color: #5cb85c;
+  border: none;
+  border-radius: 0;
+}
+
 .container {
   margin: 0 auto;
   padding-left: 15px;
