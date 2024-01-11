@@ -15,4 +15,7 @@ export class TagListComponent {
 
   @Input()
   tags!: string[];
+
+  @Input()
+  className!: string;
 }
